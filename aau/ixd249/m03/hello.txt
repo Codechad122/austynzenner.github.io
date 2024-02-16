@@ -1,1 +1,5 @@
+<!DOCTYPE html>
+<head>
+<title> Module 3</title>
+</head>
 <h1> This is Page One <h1/>
