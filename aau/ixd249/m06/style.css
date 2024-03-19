@@ -62,3 +62,8 @@
   float: left;
   margin: 0 15px 15px 0;
 }
+
+.grid {
+  display: flex;
+  flex-direction: column;
+}
