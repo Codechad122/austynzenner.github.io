@@ -1,3 +1,10 @@
+h1 {
+  text-align: center;
+}
+p {
+  text-align: left;
+}
+
 .ferretstep1 {
   width: 100px;
   height: 100px;
