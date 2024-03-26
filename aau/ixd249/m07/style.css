@@ -68,9 +68,35 @@ p {
   background-color: #999;
   float: right;
   margin: 0 15px 15px 0;
+
+  justify-content: center;
+  width: 100%;
+
+  display: flex;
+  background-color: antiquewhite;
 }
 
 .grid {
   display: flex;
   flex-direction: column;
+}
+
+.gridContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 6px;
+  border-color: black;
+  border-style: solid;
+  padding: 4px;
+  gap: 16px;
+}
+
+.gridContainer2 {
+  justify-content: center;
+  width: 100%;
+
+  display: flex;
+  background-color: antiquewhite;
+  border-color: black;
 }
