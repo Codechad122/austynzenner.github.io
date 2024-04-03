@@ -1,9 +1,66 @@
+@font-face {
+  font-family: "myriadboldnormal";
+  src: url("fonts/myriadbold_normal-webfont.woff2") format("woff2"),
+    url("fonts/myriadbold_normal-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "montserratregular";
+  src: url("fonts/montserrat-regular-webfont.woff2") format("woff2"),
+    url("fonts/montserrat-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "helveticaroman";
+  src: url("fonts/helvetica_roman-webfont.woff2") format("woff2"),
+    url("fonts/helvetica_roman-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "frutigerbold";
+  src: url("fonts/frutiger_bold-webfont.woff2") format("woff2"),
+    url("fonts/frutiger_bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "freesansbold";
+  src: url("fonts/freesansbold-webfont.woff2") format("woff2"),
+    url("fonts/freesansbold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "eurostylenormal";
+  src: url("fonts/eurostyle-normal-webfont.woff2") format("woff2"),
+    url("fonts/eurostyle-normal-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "calvert_mt_stdregular";
+  src: url("fonts/calvert_mt_std_regular-webfont.woff2") format("woff2"),
+    url("fonts/eurostyle-normal-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "avenir_lt_std55_roman";
+  src: url("fonts/avenirltstd-roman-webfont.woff2") format("woff"),
+    url("fonts/avenirltstd-roman-webfont.woff") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
 body {
   background-color: aqua;
 }
 
 #container1 .style1 {
-  font-family: "lemon", cursive;
+  font-family: "myriadboldnormal";
+  font-style: italic;
   font-size: 100%;
   color: black;
   text-align: center;
@@ -11,7 +68,51 @@ body {
 }
 
 #container1 .style2 {
-  font-family: "Courier New", Courier, monospace;
+  font-family: "montserratregular";
+  font-style: italic;
+  color: black;
+  text-align: center;
+  line-height: 1em;
+}
+
+#container1 .style3 {
+  font-family: "helveticaroman";
+  font-style: italic;
+  color: black;
+  text-align: center;
+  line-height: 1em;
+}
+#container1 .style4 {
+  font-family: "frutigerbold";
+  font-style: bold;
+  color: black;
+  text-align: center;
+  line-height: 1em;
+}
+#container1 .style5 {
+  font-family: "freesansbold";
+  font-style: bold;
+  color: black;
+  text-align: center;
+  line-height: 1em;
+}
+#container1 .style6 {
+  font-family: "eurostylenormal";
+  font-style: normal;
+  color: black;
+  text-align: center;
+  line-height: 1em;
+}
+#container1 .style7 {
+  font-family: "calvert_mt_stdregular";
+  font-style: italic;
+  color: black;
+  text-align: center;
+  line-height: 1em;
+}
+#container1 .style8 {
+  font-family: "avenir_lt_std55_roman";
+  font-style: italic;
   color: black;
   text-align: center;
   line-height: 1em;
