@@ -58,62 +58,62 @@ body {
   background-color: aqua;
 }
 
-#container1 .style1 {
+.container1.style1 {
   font-family: "myriadboldnormal";
   font-style: italic;
   font-size: 100%;
   color: black;
-  text-align: center;
+  text-align: left;
   line-height: 1em;
 }
 
-#container1 .style2 {
+.container1.style2 {
   font-family: "montserratregular";
   font-style: italic;
   color: black;
-  text-align: center;
+  text-align: left;
   line-height: 1em;
 }
 
-#container1 .style3 {
+.container1.style3 {
   font-family: "helveticaroman";
   font-style: italic;
   color: black;
-  text-align: center;
+  text-align: left;
   line-height: 1em;
 }
-#container1 .style4 {
+.container1.style4 {
   font-family: "frutigerbold";
   font-style: bold;
   color: black;
-  text-align: center;
+  text-align: left;
   line-height: 1em;
 }
-#container1 .style5 {
+.container1.style5 {
   font-family: "freesansbold";
   font-style: bold;
   color: black;
-  text-align: center;
+  text-align: left;
   line-height: 1em;
 }
-#container1 .style6 {
+.container1.style6 {
   font-family: "eurostylenormal";
   font-style: normal;
   color: black;
-  text-align: center;
+  text-align: left;
   line-height: 1em;
 }
-#container1 .style7 {
+.container1.style7 {
   font-family: "calvert_mt_stdregular";
   font-style: italic;
   color: black;
-  text-align: center;
+  text-align: left;
   line-height: 1em;
 }
-#container1 .style8 {
+.container1.style8 {
   font-family: "avenir_lt_std55_roman";
   font-style: italic;
   color: black;
-  text-align: center;
+  text-align: left;
   line-height: 1em;
 }
